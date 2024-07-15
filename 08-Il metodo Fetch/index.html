@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Il metodo Fetch</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .form {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+      }
+      .form input {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <input id="card-code" type="text" placeholder="Scrivi il numero (>01001) della carta da vedere" />
+      <button id="btn">Cerca la carta!</button>
+    </div>
+    <br />
+    <h1 id="my-title"></h1>
+    <img id="my-image" src="" alt="" />
+    <script src="./script.js"></script>
+  </body>
+</html>
